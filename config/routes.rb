@@ -12,17 +12,18 @@ Rails.application.routes.draw do
 
   resources :orders, only: [:create, :show]
 
+ 
+
   namespace :admin do
     root to: 'dashboard#show'
     resources :products, except: [:edit, :update, :show]
     resources :categories, only: [:index, :new, :create]
   end
 
-    
-
-    get '/login' => 'sessions#new'
-    post '/login' => 'sessions#create'
-    get '/logout' => 'sessions#destroy'
+    get '/:about' => 'about#show'
+    get '/:login' => 'sessions#new'
+    post '/:login' => 'sessions#create'
+    get '/:logout' => 'sessions#destroy'
     
 
     # These routes will be for signup. The first renders a form in the browse, the second will 
