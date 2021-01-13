@@ -53,7 +53,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Spring
 * Turbolinks 
 
-![Screenshot]https://github.com/ngampit/jungle-rails/blob/master/docs/Main_Page.png
-![Screenshot]https://github.com/ngampit/jungle-rails/blob/master/docs/Cart_Page.png
-![Screenshot]https://github.com/ngampit/jungle-rails/blob/master/docs/Order_Page.png
+![main_page](https://github.com/ngampit/jungle-rails/blob/master/docs/Main_Page.png)
+![cart_page](https://github.com/ngampit/jungle-rails/blob/master/docs/Cart_Page.png)
+!["order_page"](https://github.com/ngampit/jungle-rails/blob/master/docs/Order_Page.png)
 
